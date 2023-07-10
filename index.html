@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- <div class="city-page" style="background: url('img/kyiv/background.jpg'); background-size: cover"> -->
+    <div class="city-page" style="background: url('img/kyiv/background.jpg'); background-size: cover">
+      <div class="wrapper">
+        <img src="img/logo.png" alt="GOIT logo" class="goit-logo" />
+        <!-- <label class="input-sity">
+          Введи город
+          <input type="text" id="filter" />
+        </label> -->
+        <label class="input-sity">
+          <select id="filtr-sity" name="sity-name">
+            <!-- <option value="vinnytsia">Вінниця</option>
+            <option value="dnipro">Дніпро</option>
+            <option value="donetsk" selected>Донецьк</option>
+            <option value="zhytomyr">Житомир</option> -->
+          </select>
+        </label>
+        <div class="city-text-container">
+          <h1 class="city-title">Київ</h1>
+          <p class="city-descr">
+            Наша каштанова столиця. Місто засноване 482 року, налічує близько 3 мільйонів сердець та є 7-м за величиною
+            містом Європи. Найширша й, водночас, найкоротша вулиця в усій Європі - Хрещатик. Метро Києва - одне з
+            найстаріших в Європі, а станція «Золоті ворота» входить в топ-10 найкрасивіших у світі. Від світанків на
+            Співочому полі, заходів сонця на Дніпрі до неймовірно смачної перепічки - тут усе таке рідне.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="city-gallery"></div>
+    <script src="./sity-choose.js" type="module"></script>
+  </body>
+</html>
