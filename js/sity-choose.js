@@ -1,4 +1,5 @@
-import { sityItems } from "/sity.js";
+import { sityItems } from "./sity.js";
+console.log(sityItems);
 
 //const sityArr = sityItems.map((sity) => console.log(sity));
 
